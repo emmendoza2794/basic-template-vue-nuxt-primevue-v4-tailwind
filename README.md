@@ -1,0 +1,1 @@
+# basic-template-vue-nuxt-primevue-v4-tailwind
