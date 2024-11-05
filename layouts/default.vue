@@ -84,9 +84,11 @@ const toggle = (event) => {
     </template>
   </Drawer>
 
-  <div class="flex pt-[55px]" :class="menuMain ? 'md:justify-self-end' : ''">
-    <div class="w-full" :class="menuMain ? 'md:w-[calc(100vw-270px)]' : 'md:w-full'">
-      <nuxt-page />
+  <div class="grid">
+    <div class="flex pt-[55px]" :class="menuMain ? 'md:justify-self-end' : ''">
+      <div class="w-full" :class="menuMain ? 'md:w-[calc(100vw-270px)]' : 'md:w-full'">
+        <nuxt-page />
+      </div>
     </div>
   </div>
 
